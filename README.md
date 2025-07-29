@@ -21,7 +21,7 @@
 
 ### Links
 
-- Solution URL: [](https://github.com/Peolite1/tubidy-clone.git)
+- Solution URL: [https://github.com/Peolite1/tubidy-clone.git](https://github.com/Peolite1/tubidy-clone.git)
 - Live Site URL: []()
 
 ## My process
