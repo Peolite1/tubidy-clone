@@ -58,7 +58,7 @@ Focusing on improving my skill in using Tailwind for styling...until I become be
 
 - [Source2]( https://tailwindcss.com/) - This helped me to get the necessary syntaxs on how and where to use my styles.
 
-- [Sourse3](https://fontawesome.com/) - This helped me ing getting the icons i needed for the webpage (i.e twitter,facebook, etc.)
+- [Sourse3](https://fontawesome.com/) - Got some icons I needed for the webpage (i.e twitter,facebook, etc.)
 ## Author
 
 - Website - [Okorie PraiseGod . E.](https://peolite1.github.io/tubidy-clone/)
