@@ -22,7 +22,7 @@
 ### Links
 
 - Solution URL: [https://github.com/Peolite1/tubidy-clone.git](https://github.com/Peolite1/tubidy-clone.git)
-- Live Site URL: []()
+- Live Site URL: [https://peolite1.github.io/tubidy-clone/](https://peolite1.github.io/tubidy-clone/)
 
 ## My process
 
@@ -61,7 +61,7 @@ Focusing on improving my skill in using Tailwind for styling...until I become be
 - [Sourse3](https://fontawesome.com/) - This helped me ing getting the icons i needed for the webpage (i.e twitter,facebook, etc.)
 ## Author
 
-- Website - [Okorie PraiseGod . E.]()
+- Website - [Okorie PraiseGod . E.](https://peolite1.github.io/tubidy-clone/)
 - LinkedIn - [Peolite1](https://www.linkedin.com/in/praisegodebubechukwu-392613260?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMt%2FHeL33RH%2BaGvs4pZiXFQ%3D%3D)
 - Twitter - [@prai79461](https://x.com/prai79461)
 
