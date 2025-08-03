@@ -3,150 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="https://tubidy.center/theme1/assets/logo-CsCrEMo0.png" 
+     <link rel="icon" type="https://tubidy.center/theme1/assets/logo-CsCrEMo0.png" 
     sizes="32x32" href="https://tubidy.center/theme1/assets/logo-CsCrEMo0.png">
     <title>Tubidy - Fast & Free MP3</title>
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
      <link rel="stylesheet" href="Fontawesome/css/all.css">
 </head>
 <body class="bg-gray-100">
-    <!-- nav1 -->
-    <nav class="hidden lg:flex px-4 lg:px-20 py-3 bg-sky-300 text-white sticky top-0 z-50 border-b">
+     <!-- nav1 -->
+      <nav class="hidden lg:flex px-4 lg:px-20 py-6 bg-sky-300 text-white sticky top-0 z-50 border-b">
         <div class="flex flex-wrap item-center justify-between w-full gap-4">
              <img src="https://tubidy.center/theme1/assets/logo-CsCrEMo0.png"
-              alt="Tubidy" hfef="#" class="h-8">
-            <span class="hover:text-black cursor-pointer">Top <br>Video</span>
-            <span class="hover:text-black cursor-pointer">Top <br> Searches</span>
-            <span class=" hover:text-black cursor-pointer">Recently<br>Viewed</span>
-
-            <button class="hover:text-black mb-5 cursor-pointer">
+              alt="Tubidy" hfef="#" class="h-12">
+            <span class="hover:text-black">Top <br>Video</span>
+            <span class="hover:text-black">Top <br> Searches</span>
+            <span class=" hover:text-black">Recently<br>Viewed</span>
+             <button class="hover:text-black mb-5">
                 Moods&Geners
                 <i class="fa-solid fa-caret-down hover:text-black"></i>
             </button>
 
-             <button class="hover:text-black mb-5 cursor-pointer">
+             <button class="hover:text-black mb-5">
                 My Account
                 <i class="fas fa-caret-down hover:text-black"></i>
              </button>
 
-            <i class="fa-solid fa-rss hover:text-black text-xl mb-6 cursor-pointer"><br><span>blog</span></i>
+            <i class="fas fa-rss hover:text-black"><br><span>blog</span></i>
 
-            <i class="fa-brands fa-facebook hover:text-black text-xl mb-6 cursor-pointer"></i>
+            <i class="fa-brands fa-facebook hover:text-black text-xl mb-6"></i>
 
-            <i class="fa-brands fa-twitter hover:text-black text-xl mb-6 cursor-pointer"></i>
+            <i class="fa-brands fa-twitter hover:text-black text-xl mb-6"></i>
 
             
     <div class="relative w-64">
         <input type="text" placeholder="Search" class="w-full pl-10 pr-4 py-2 border border-gray-500
           rounded-md bg-white  text-gray-800">
         <i class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500"></i>
-    </div>
+        </div>
+      </nav>
 
-    </nav>
-<!-- nav2 for mobile bar....-->
-  <div class="lg:hidden flex justify-between items-center px-4 py-3 bg-sky-300 sticky top-0 z-50">
-    <img src="https://tubidy.center/theme1/assets/logo-CsCrEMo0.png" alt="Tubidy" class="h-8">
-    <button id="mobileMenuButton" class="text-2xl focus:outline-none">
-      <i class="fas fa-bars cursor-pointer"></i>
-    </button>
-  </div>
+ <!-- nav2 for mobile bar....-->
+      <section>
+        <div class="lg:hidden flex justify-between items-center px-4 py-3 bg-sky-300 sticky top-0 z-50">
+            <img src="https://tubidy.center/theme1/assets/logo-CsCrEMo0.png" alt="Tubidy" class="h-10">
+            <button id="mobileMenuButton" class="text-2xl focus:outline-none">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
 
-  <div class="lg:hidden px-4 pb-3">
-    <div class="relative w-full">
-      <input type="text" placeholder="Search" class="w-full pl-10 pr-4 py-2 border border-gray-200 
-      rounded-md bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-500/0">
-      <i class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500"></i>
-    </div>
-  </div> 
+        <div class="lg:hidden px-4 pb-3 bg-sky-300">
+           <div class="relative w-full">
+            <input type="text" placeholder="Search" class="w-full pl-10 pr-4 py-2 border border-gray-200 
+            rounded-md bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-500/0">
+             <i class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500"></i>
+        </div>
+      </section>
 
-</nav>
-
-<main class="container">
-    <h1 class="flex items-center justify-center font-bold  text-3xl m-3">Tubidy</h1>
-        <p class="text-center mb-4 py-5">Discover Tubidy: a fast, ad-free platform to download 
+      <main class="container">
+        <section>
+    <h1 class="flex items-center justify-center font-bold text-2xl lg:text-3xl m-5">Tubidy</h1>
+        <p class="text-center py-3">Discover Tubidy: a fast, ad-free platform to download 
             your favorite MP3 music and MP4 videos for free. 
             Enjoy unlimited access to songs and videos <br> anytime, anywhere.</p>
-    </section>
+        </section>
 
-<div class="mb-4">
-    <section class="moods-and-genres px-19">
-    <h2 class="text-center mb-4 font-bold text-2xl">
-        <i class="fa-solid fa-music mr-2"></i>Moods & Genres</h2>
-    <nav class=" grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-5 m-4">
-        <div>
-            <a href="#" class="block w-full px-3 py-2 rounded-lg border 
-           border-l-15 border-sky-400 bg-black text-white text-sm sm:text-base cursor-pointer" 
-            title="African" >African</a>
-        </div>
-                <div class="">
-            <a href="#"  class="block w-full px-3 py-2 rounded-lg border 
-           border-l-15 border-sky-400 bg-black text-white text-sm sm:text-base cursor-pointer" 
-            title="Latin">Latin</a>
-        </div>
-                <div class="">
-            <a href="#"  class="block w-full px-3 py-2 rounded-lg border 
-           border-l-15 border-sky-400 bg-black text-white text-sm sm:text-base cursor-pointer" 
-            title="Chill">Chill</a>
-        </div>
-                <div class="">
-            <a href="#"  class="block w-full px-3 py-2 rounded-lg border 
-           border-l-15 border-sky-400 bg-black text-white text-sm sm:text-base cursor-pointer"
-            title="Feel good">Feel good</a>
-        </div>
-                <div class="">
-            <a href="#"  class="block w-full px-3 py-2 rounded-lg border 
-           border-l-15 border-sky-400 bg-black text-white text-sm sm:text-base cursor-pointer"
-             title="Workout">Workout</a>
-        </div>
-                <div class="">
-            <a href="#"  class="block w-full px-3 py-2 rounded-lg border 
-           border-l-15 border-sky-400 bg-black text-white text-sm sm:text-base cursor-pointer" 
-              title="Arabic">Arabic</a>
-        </div>
-                <div class="">
-            <a href="#"  class="block w-full px-3 py-2 rounded-lg border 
-           border-l-15 border-sky-400 bg-black text-white text-sm sm:text-base cursor-pointer"
-             title="Bollywood & Indian">Bollywood & Indian</a>
-        </div>
-                <div class="">
-            <a href="#"  class="block w-full px-3 py-2 rounded-lg border 
-           border-l-15 border-sky-400 bg-black text-white text-sm sm:text-base cursor-pointer"
-              title="Pop">Pop</a>
-        </div>
-            </nav>
-</section>
+        <div class="mb-4">
+            <section class="moods-and-genres lg:px-19">
+                <h2 class="text-center mb-4 font-bold text-2xl">
+                    <i class="fa-solid fa-music mr-2"></i>Moods & Genres</h2>
+                    <nav class=" grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-5 m-4 text-center">
+                        <div> 
+                            <a href="#" class="block w-full px-3 py-2 rounded-lg border
+                            border-l-15 border-sky-400 bg-black text-white text-sm sm:text-base" 
+                            title="African" >African</a>
+                        </div>
+                        <div>
+                            <a href="#"  class="block w-full px-3 py-2 rounded-lg border 
+                             border-l-15 border-sky-400 bg-black text-white text-sm sm:text-base" 
+                             title="Latin">Latin
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#"  class="block w-full px-3 py-2 rounded-lg border 
+                            border-l-15 border-sky-400 bg-black text-white text-sm sm:text-base" 
+                            title="Chill">Chill
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#"  class="block w-full px-3 py-2 rounded-lg border 
+                            border-l-15 border-sky-400 bg-black text-white text-sm sm:text-base"
+                            title="Feel good">Feel good 
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#"  class="block w-full px-3 py-2 rounded-lg border 
+                            border-l-15 border-sky-400 bg-black text-white text-sm sm:text-base"
+                            title="Workout">Workout
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#"  class="block w-full px-3 py-2 rounded-lg border 
+                             border-l-15 border-sky-400 bg-black text-white text-sm sm:text-base" 
+                             title="Arabic">Arabic
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#"  class="block w-full px-3 py-2 rounded-lg border 
+                             border-l-15 border-sky-400 bg-black text-white text-sm sm:text-base"
+                             title="Bollywood & Indian">Bollywood & Indian
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#"  class="block w-full px-3 py-2 rounded-lg border 
+                             border-l-15 border-sky-400 bg-black text-white text-sm sm:text-base"
+                             title="Pop">Pop
+                            </a>
+                        </div>
+                    </nav>
+            </section>
+      
 
-<div class="">
-    <section class="trending-videos">
-    <h2 class="text-center mb-4 flex items-center justify-center font-bold text-2xl">
-        <i class="fa-solid fa-video mr-2"></i>Popular Videos</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 px-4 md:px-10 lg:px-20 gap-4 ">
-                <div>
-            <article class="flex flex-col sm:flex-row bg-white rounded-xl shadow-lg p-4">
-    <div class="flex">
-        <a href="#" class="sm:w-1/3 mb-3 sm:mb-0">
-            <img src= "https://i.ytimg.com/vi/U1WSwTSAbro/hqdefault.jpg" alt="Khadeair - Magumba (feat. Peekay Mzee & Kaytah)" class="w-full rounded" >
-        </a> 
-        <div class="sm:w-2/3 sm:pl-4">
-            <h4><a href="#" class="font-bold text-sm sm:text-base line-clamp-2" title="Khadeair - Magumba (feat. Peekay Mzee &amp; Kaytah)">Khadeair - Magumba (feat. Peekay Mzee &amp; Kaytah)</a></h4>
-            <div class="flex align-items-center mt-13">
-                <time datetime="PT6M47S" class="duration">
-                    <i class="fa-regular fa-clock "></i>
-                    <span>6:47</span>
-                </time>
-                <span class="mx-3 text-body-tertiary">|</span>
-                <a href="#" class="share">
-                    <i class="fa-brands fa-whatsapp"></i>
-                </a>
-            </div>
-        </div>
-        <a href="#">
-            <i class="fa-solid fa-chevron-right mt-15"></i>
-        </a>
-    </div>
-    
-</article>
-        </div>
+      <div>
+        <section class="trending-videos">
+           <h2 class="text-center mb-4 flex items-center justify-center font-bold text-2xl">
+              <i class="fa-solid fa-video mr-2"></i>Popular Videos
+           </h2>
+               <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 px-4 md:px-10 lg:px-20 gap-4">
+                   <div>
+                     <article class="flex flex-col sm:flex-row bg-white rounded-xl shadow-lg p-4">
+                       <div class="flex">
+                          <a href="#" class="sm:w-1/3 mb-3 sm:mb-0">
+                             <img src= "https://i.ytimg.com/vi/U1WSwTSAbro/hqdefault.jpg" alt="Khadeair - Magumba (feat. Peekay Mzee & Kaytah)" class="w-full rounded" >
+                          </a> 
+                          <div class="sm:w-2/3 sm:pl-4">
+                            <h4><a href="#" class="font-bold text-sm sm:text-base line-clamp-2" title="Khadeair - Magumba (feat. Peekay Mzee &amp; Kaytah)">Khadeair - Magumba (feat. Peekay Mzee &amp; Kaytah)                         
+                            </a></h4>
+                            <div class="flex align-items-center mt-19">
+                             <time datetime="PT6M47S" class="duration">
+                                 <i class="fa-regular fa-clock "></i>
+                                   <span>6:47</span>
+                             </time>
+                               <span class="mx-3 text-body-tertiary">|</span>
+                                 <a href="#" class="share">
+                                   <i class="fa-brands fa-whatsapp"></i>
+                                 </a>
+                            </div>
+                          </div>
+                          <a href="#">
+                           <i class="fa-solid fa-chevron-right mt-15"></i>
+                          </a>
+                      </div>
+                      </article>
+                      </div>
                 <div>
             <article class="flex flex-col sm:flex-row bg-white rounded-xl shadow-lg p-4">
     <div class="flex">
@@ -603,28 +611,27 @@
         users engaged with the latest music and videos. Tubidy's extensive genre diversity, including global hits 
         and unique local South African music, makes it a preferred choice for many, as reflected in numerous positive 
         user reviews and ratings. <br><br>
-Check out the <a href="#" class="text-cyan-400 hover:text-cyan-600 cursor-pointer">top searches</a> and <a href="#" 
- class="text-cyan-400 hover:text-cyan-600 cursor-pointer">top videos on Tubidy</a>. You can also view the videos you recently watched.</span>
+Check out the <a href="#" class="text-cyan-400 hover:text-cyan-600">top searches</a> and <a href="#" 
+ class="text-cyan-400 hover:text-cyan-600">top videos on Tubidy</a>. You can also view the videos you recently watched.</span>
 
 </div>
 
-<div class="font-bold text-2xl py-5 px-4 md:px-10 lg:px-20">What is Tubidy? About Us</div>
+<div class="font-bold text-2xl px-4 md:px-10 lg:px-20">What is Tubidy? About Us</div>
 <p class=" py-5 px-4 md:px-10 lg:px-20">Tubidy is a well-known platform that provides free, high-quality MP3 music and MP4 video downloads. 
     Designed for users who want quick and easy access to their favorite media, Tubidy offers a seamless 
     experience with a vast library that’s simple to navigate. Whether you're looking for the latest hits,
-     timeless classics, or something unique, Tubidy ensures that there’s something for everyone. 
-     The platform continues to evolve with features that cater to diverse user preferences, making it a top
-      choice for digital media consumption.</p>
+    timeless classics, or something unique, Tubidy ensures that there’s something for everyone. 
+    The platform continues to evolve with features that cater to diverse user preferences, making it a top
+    choice for digital media consumption.</p>
 
       <div class="font-bold text-2xl py-5 px-4 md:px-10 lg:px-20">Tubidy's Extensive Media Library</div>
       <p class="py-5 px-4 md:px-10 lg:px-20"> One of the standout features of Tubidy is its vast media library. 
         With thousands of songs and videos spanning multiple genres and formats, users will always 
         find what they’re looking for. Tubidy’s library is continuously updated, so you can always access
-         the latest content, whether it's the newest releases for <b>mp3 download songs 2024</b> or upcoming hits for
-          <b>mp3 download songs 2025</b>. This expansive collection makes Tubidy a preferred destination for those who
-           want a reliable source for both music and video downloads.        
+        the latest content, whether it's the newest releases for <b>mp3 download songs 2024</b> or upcoming hits for
+        <b>mp3 download songs 2025</b>. This expansive collection makes Tubidy a preferred destination for those who
+        want a reliable source for both music and video downloads.        
       </p>
-
 
       <div class="font-bold text-2xl py-5 px-4 md:px-10 lg:px-20">Supported Audio Formats</div>
       <p class="py-5 px-4 md:px-10 lg:px-20"> Tubidy supports a variety of audio formats, ensuring that your downloads are 
@@ -642,7 +649,7 @@ Check out the <a href="#" class="text-cyan-400 hover:text-cyan-600 cursor-pointe
            storage space, making it easier to enjoy your content on any device.
       </p>
 
-      <div class="font-bold text-2xl py-5 px-4 md:px-10 lg:px-20">Popular Genres on Tubidy</div>
+<div class="font-bold text-2xl py-5 px-4 md:px-10 lg:px-20">Popular Genres on Tubidy</div>
       <p class="py-5 px-4 md:px-10 lg:px-20"> Tubidy’s extensive library includes a wide variety of music genres, ensuring that all users
          find something to enjoy. From pop and rock to classical, jazz, and hip-hop, Tubidy covers all major music
           genres. This variety allows users to explore new musical territories or stick to their favorite styles, making
@@ -658,7 +665,7 @@ Check out the <a href="#" class="text-cyan-400 hover:text-cyan-600 cursor-pointe
           source for music and video downloads, combining ease of use with a vast and diverse media library.
       </p>
 
-      <div class="font-bold text-2xl py-5 px-4 md:px-10 lg:px-20">How to Download Music and Videos on Tubidy</div>
+       <div class="font-bold text-2xl py-5 px-4 md:px-10 lg:px-20">How to Download Music and Videos on Tubidy</div>
       <p class="py-5 px-4 md:px-10 lg:px-20">Downloading music and videos from Tubidy is a straightforward process, designed to be
          user-friendly for all. The platform’s intuitive interface makes it easy to search for, select, and download
           your desired media. Whether you're looking for the latest <b>mp3 download new songs</b> or classic tracks, Tubidy
@@ -680,7 +687,7 @@ Check out the <a href="#" class="text-cyan-400 hover:text-cyan-600 cursor-pointe
         any complicated steps.
       </p>
 
-      <div class="font-bold text-2xl py-5 px-4 md:px-10 lg:px-20">Tips for Efficient Downloads</div>
+       <div class="font-bold text-2xl py-5 px-4 md:px-10 lg:px-20">Tips for Efficient Downloads</div>
       <p class="py-5 px-4 md:px-10 lg:px-20">To make your Tubidy experience even better, here are some tips for efficient downloads:
          Always check your storage space before downloading, choose the appropriate format and resolution based on 
          your device, and ensure you have a stable internet connection to avoid interruptions. By following these 
@@ -907,23 +914,23 @@ Check out the <a href="#" class="text-cyan-400 hover:text-cyan-600 cursor-pointe
         tablets, and computers. The platform is accessible through web browsers and the Tubidy mobile app.
       </p>
 
-       <nav class="px-17 border-gray-200 p-6 bg-white text-white border-b">
-        <div class="flex items-center justify-center gap-7">
-            <span class="font-semibold text-cyan-400/100 hover:text-cyan-600 cursor-pointer">About us</span>
-            <span class="font-semibold text-cyan-400/100 hover:text-cyan-600 cursor-pointer">FAQ</span>
-            <span class="font-semibold text-cyan-400/100 hover:text-cyan-600 cursor-pointer">Privacy</span>
-            <span class="font-semibold text-cyan-400/100 hover:text-cyan-600 cursor-pointer">Terms</span>
-            <span class="font-semibold text-cyan-400/100 hover:text-cyan-600 cursor-pointer">Contact</span>
-            <span class="font-semibold text-cyan-400/100 hover:text-cyan-600 cursor-pointer">Blog</span>
-            <span class="font-semibold text-cyan-400/100 hover:text-cyan-600 cursor-pointer">Tubidy</span>
+
+      <nav class="lg:text-center border-gray-200 p-6 bg-white text-white">
+        <div class="grid gird-col-1 lg:flex items-center justify-center space-x-50 gap-4 lg:space-x-10">
+            <a class="font-semibold text-cyan-400/100 hover:text-cyan-600">About us</a>
+            <a class="font-semibold text-cyan-400/100 hover:text-cyan-600">FAQ</a>
+            <a class="font-semibold text-cyan-400/100 hover:text-cyan-600">Privacy</a>
+            <a class="font-semibold text-cyan-400/100 hover:text-cyan-600">Terms</a>
+            <a class="font-semibold text-cyan-400/100 hover:text-cyan-600">Contact</a>
+            <a class="font-semibold text-cyan-400/100 hover:text-cyan-600">Blog</a>
+            <a class="font-semibold text-cyan-400/100 hover:text-cyan-600">Tubidy</a>
         </div>
         </nav>
 
-        <button id="scrollToTop" class="fixed bottom-6 right-6 text-cyan-400/100 text-3xl cursor-pointer">
+      <button id="scrollToTop" class="fixed bottom-6 right-6 text-cyan-400/100 text-3xl">
         <i class="fa-solid fa-circle-chevron-up"></i> 
         </button>
-
- <script>
+        <script>
    const scrollToTopBtn = document.getElementById('scrollToTop');
        window.addEventListener('scroll', () => {
       if (window.pageYOffset > 300) {
@@ -941,10 +948,12 @@ Check out the <a href="#" class="text-cyan-400 hover:text-cyan-600 cursor-pointe
 
   </script>
 
- </main>
+</main>
 </body>
-<footer id="footer">
-    <div class="flex  m-5 justify-between px-19 ">
+
+<section>
+    <footer id="footer">
+    <div class="flex gap-15 m-5 justify-between lg:px-19 ">
             <p>Discover Tubidy: a fast, ad-free platform to download your favorite MP3 <br>
                  music and MP4 videos for free.Enjoy unlimited access to songs 
                  and videos <br> anytime, anywhere.</p>
@@ -954,4 +963,5 @@ Check out the <a href="#" class="text-cyan-400 hover:text-cyan-600 cursor-pointe
 
         </div>
 </footer>
+</section>
 </html>
